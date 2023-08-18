@@ -1697,4 +1697,7 @@ header.masthead .masthead-heading{
         font-size:1.75rem;
         margin:0;
     }
+    a.whatsapp-btn {
+        width: 8.75rem;
+    }
 }
