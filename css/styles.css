@@ -1660,7 +1660,7 @@ header.masthead{
     background-repeat:no-repeat;
     background-attachment:fixed;
     background-position:center center;
-    background-size:contain;
+    background-size:cover
 }
 header.masthead .masthead-subheading{
     font-size:1.5rem;
