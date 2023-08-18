@@ -1640,11 +1640,6 @@ section#contact .section-heading{
     font-size:.9rem;
     font-family:Montserrat,-apple-system,BlinkMacSystemFont,"Segoe UI","Sole Sans Extended","Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"
 }
-@media (max-width:1000px){
-    header.masthead .masthead-heading{
-        font-size:1.75rem;
-    }
-}
 a.whatsapp-btn img,svg{
     width:17.5em;
     margin-top:2em
@@ -1695,5 +1690,11 @@ header.masthead .masthead-heading{
         font-weight:700;
         line-height:4.5rem;
         margin-bottom:4rem
+    }
+}
+@media (max-width:1000px){
+    header.masthead .masthead-heading{
+        font-size:1.75rem;
+        margin:0;
     }
 }
