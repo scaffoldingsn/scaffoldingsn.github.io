@@ -1694,7 +1694,7 @@ header.masthead .masthead-heading{
 }
 @media (max-width:1000px){
     header.masthead .masthead-heading{
-        font-size:1.75rem;
+        font-size:1rem;
         margin:0;
     }
 }
