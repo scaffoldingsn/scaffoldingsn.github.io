@@ -1,0 +1,4 @@
+colour scheme
+        
+{"bg":"#053881","icon":"#07A0B4","font":"#ffffff","slogan":"#ffffff"}
+      
