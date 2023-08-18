@@ -1643,8 +1643,6 @@ section#contact .section-heading{
 @media (max-width:1000px){
     header.masthead .masthead-heading{
         font-size:1.75rem;
-        margin-left:1em;
-        margin-right:1em
     }
 }
 a.whatsapp-btn img,svg{
