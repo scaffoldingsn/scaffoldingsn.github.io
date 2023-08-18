@@ -1651,16 +1651,16 @@ a.whatsapp-btn img,svg{
 .fas .fa-tarp .fa-stack-1x{
     background-color:#fff
 }
-header.masthead{
-    padding-top:10.5rem;
-    padding-bottom:6rem;
-    text-align:center;
-    color:#fff;
-    background-image:url(http://scaffoldingsn.github.io/assets/img/header-bg.jpg);
-    background-repeat:no-repeat;
-    background-attachment:fixed;
-    background-position:center center;
-    background-size:cover;
+header.masthead {
+    padding-top: 10.5rem;
+    padding-bottom: 6rem;
+    text-align: center;
+    color: #fff;
+    background-image: url("../assets/img/header-bg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
 }
 header.masthead .masthead-subheading{
     font-size:1.5rem;
@@ -1694,7 +1694,7 @@ header.masthead .masthead-heading{
 }
 @media (max-width:1000px){
     header.masthead .masthead-heading{
-        font-size:1.75rem;
+        font-size:2.25rem;
         margin:0;
     }
     a.whatsapp-btn {
