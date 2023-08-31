@@ -1702,7 +1702,7 @@ header.masthead .masthead-heading{
     }
 }
 .slider {
-    width: 500px;
+    width: 33.3333%;
     height: 300px;
     background-color: yellow;
     margin-left: auto;
@@ -1712,7 +1712,7 @@ header.masthead .masthead-heading{
     overflow: hidden;
   }
   .image-container {
-    width: 1500px;
+    width: 100%;
     background-color: pink;
     height: 300px;
     clear: both;
@@ -1746,5 +1746,5 @@ header.masthead .masthead-heading{
     height: 15px;
     width: 15px;
     border-radius: 50px;
-    background-color: lightgreen;
+    background-color: var(--bs-gray-700);
   }
