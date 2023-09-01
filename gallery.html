@@ -31,7 +31,7 @@
             <a class="down-btn" href="#gallery"> <span class="fa-stack fa-2x"> <i class="fas fa-stack-2x text-primary"></i><i class="fas fa-solid fa-arrow-down fa-stack-1x"></i> </span> </a> 
          </div>
       </header>
-      <div class="pswp-gallery pswp-gallery--single-column" id="gallery">
+      <div class="pswp-gallery pswp-gallery--responsive-images" id="#gallery--responsive-images">
         <div>
           <a href="assets/gallery/1.jpg"
             data-pswp-width="739" 
@@ -568,12 +568,13 @@
       <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
       <script type="module">
         import PhotoSwipeLightbox from '/js/photoswipe-lightbox.js';
-        const lightbox = new PhotoSwipeLightbox({
-        gallery: '#gallery',
-        children: 'a',
-        pswpModule: () => import('/js/photoswipe-lightbox.js')
-        });
-        lightbox.init();
+        const options = {
+            gallery: '#gallery--responsive-images',
+            children: 'a',
+            pswpModule: () => import('/js/photoswipe.js')
+        };
+        const lightbox = new PhotoSwipeLightbox(options);
+        lightbox.init();    
       </script>
     </body>
 </html>
