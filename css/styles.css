@@ -1701,6 +1701,12 @@ header.masthead .masthead-heading{
         width: 8.75rem;
     }
 }
+a.down-btn {
+    color: #07a0b4;
+}
+a.down-btn:hover {
+    color: #07a0b4;
+}
 .slider {
 	position: relative;
 	margin: 0 0 10px;
@@ -1753,7 +1759,7 @@ header.masthead .masthead-heading{
 }
 
 .slider nav span:hover {
-	background: #0690a2;
+	background: #07a0b4;
 }
 
 .slider nav span.slider-next {
