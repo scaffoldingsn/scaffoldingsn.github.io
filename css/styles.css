@@ -1796,10 +1796,3 @@ a.down-btn:hover {
 	background: #07a0b4;
 	transition: box-shadow 0.2s ease-in-out;
 }
-.pswp-gallery div a img { 
-    object-fit: contain !important;
-    max-height: 400px !important;
-    max-width: auto !important;
-    margin-top: 100px;
-    margin-bottom: 100px;
-}
