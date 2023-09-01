@@ -567,14 +567,16 @@
       <script src="js/scripts.js"></script>
       <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
       <script type="module">
-        import PhotoSwipeLightbox from '/js/photoswipe-lightbox.js';
-        const options = {
-            gallery: '#gallery--responsive-images',
-            children: 'a',
-            pswpModule: () => import('/js/photoswipe.js')
-        };
-        const lightbox = new PhotoSwipeLightbox(options);
-        lightbox.init();    
+        import PhotoSwipeLightbox from '/photoswipe/photoswipe-lightbox.esm.js';
+
+        const lightbox = new PhotoSwipeLightbox({
+        gallery: '#gallery--responsive-images',
+
+        children: 'a',
+
+        pswpModule: () => import('/photoswipe/photoswipe.esm.js')
+        });
+        lightbox.init(); 
       </script>
     </body>
 </html>
