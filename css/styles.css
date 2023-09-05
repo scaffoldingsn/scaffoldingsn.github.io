@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @font-face{
     font-family:'Sole Sans Extended';
-    src:local('Sole Sans Extended Regular'),local('Sole-Sans-Extended-Regular'),url(http://scaffoldingsn.github.io/css/http://scaffoldingsn.github.io/css/assets/fonts/SoleSans-RegularExtended.woff2) format('woff2'),url(assets/fonts/SoleSans-RegularExtended.woff) format('woff'),url(http://scaffoldingsn.github.io/css/assets/fonts/SoleSans-RegularExtended.ttf) format('truetype');
+    src:local('Sole Sans Extended Regular'),local('Sole-Sans-Extended-Regular'),url('../assets/fonts/SoleSans-RegularExtended.woff2') format('woff2'),url('../assets/fonts/SoleSans-RegularExtended.woff') format('woff'),url('../assets/fonts/SoleSans-RegularExtended.ttf') format('truetype');
     font-weight:400;
     font-style:normal
 }
