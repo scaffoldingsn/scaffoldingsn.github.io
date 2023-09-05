@@ -1626,12 +1626,6 @@ p{
 .img-brand{
     height:2.75rem
 }
-section#contact{
-    background-color:#212529;
-    background-image:url(http://scaffoldingsn.github.io/assets/img/map-image.png);
-    background-repeat:no-repeat;
-    background-position:center
-}
 section#contact .section-heading{
     color:#fff
 }
@@ -1644,8 +1638,8 @@ a.whatsapp-btn img,svg{
     width:17.5em;
     margin-top:2em
 }
-.col-md {
-    background-color:#07a0b4;
+.col-md-6 {
+    background-color:#83d0da;
     padding:4em
 }
 .fas .fa-tarp .fa-stack-1x{
