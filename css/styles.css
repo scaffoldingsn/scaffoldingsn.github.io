@@ -1640,7 +1640,8 @@ a.whatsapp-btn img,svg{
 }
 .col-md {
     background-color:#83d0da;
-    padding:4em
+    padding:4em;
+    color: var(--bs-body-color)
 }
 .fas .fa-tarp .fa-stack-1x{
     background-color:#fff
